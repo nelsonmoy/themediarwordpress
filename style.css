@@ -329,7 +329,7 @@ footer #footerizq, footer #footerder {
 
 #footerizq .phone, #footerizq .email
 {
-	color: white; 
+	color: white !important; 
 }
 
 #footerizq .phone img, #footerizq .email img
