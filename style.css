@@ -338,6 +338,17 @@ footer #footerizq, footer #footerder {
 	margin-right: 5px;
 }
 
+.phone
+{
+	color: white;
+}
+
+.email
+{
+	color: white;
+}
+
+
 #footerder{
 	text-align: right;
 }
