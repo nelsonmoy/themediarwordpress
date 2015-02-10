@@ -1,0 +1,360 @@
+/*
+Theme Name: Diar Theme
+Theme URL: www.diar.com
+Description: Tema diseñado para diar.com
+Versioon: 1
+Author: Nelson Manel Ordaz Yglesias
+Author URL: http://www.nelsonkewebs.blogspot.mx
+*/
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body 
+{
+	background: #eee;
+	font-size: 16pt;
+	font-family: "Poiret One", Arial, Helvetica, sans-serif;
+}
+
+
+header {
+	margin: 0px auto;
+	max-height: 400px;
+	max-width: 900px;
+	position: relative;
+	text-align: center;
+	width: 85%;
+}
+
+nav {
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+nav ul li a {
+
+	font-family: 'Open sans', Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: 10px;
+	background: #2228B2;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 10px;
+	box-shadow: -5px 5px 15px rgba(0,0,0,0.6);
+	transition: linear 0.3s;
+}
+
+nav ul li a:hover {
+	background: #41911D;
+}
+
+nav ul li.current-menu-item a {
+	background: #41911D;
+}
+
+#menu-normal {
+	margin-top:20px;
+}
+
+#menu-normal h1
+{
+	background: #2228B2;
+  	border-radius: 1.5em;
+  	-moz-border-radius: 1.5em;
+  	-webkit-border-radius: 1.5em;
+  	color: #ffffff;
+  	display: inline-block;
+  	font-weight: bold;
+  	line-height: 3em;
+  	margin-right: 15px;
+  	text-align: center;
+  	text-shadow: -4px 0px rgb(0,150,0);
+  	width: 3em; 
+}
+
+h1
+{
+	background: #2228B2;
+  	border-radius: 1.5em;
+  	-moz-border-radius: 1.5em;
+  	-webkit-border-radius: 1.5em;
+  	color: #ffffff;
+  	display: inline-block;
+  	font-weight: bold;
+  	line-height: 3em;
+  	margin-right: 15px;
+  	text-align: center;
+  	text-shadow: -4px 0px rgb(0,150,0);
+  	width: 3em; 
+}
+h1 a {
+	text-decoration: none;
+	color: #eee;
+
+}
+
+#menu-normal h1 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#menu-mobil{
+	display: none;
+}
+
+#menu-mobil {
+	margin-top: -22px;
+	width: 100%;
+	max-width: 100%;
+	background: #2228B2;
+}
+
+#menu-mobil h1 {
+	color: #eee;
+	font-size: 2rem;
+	text-shadow: -4px 0px rgb(0,150,0);
+}
+
+#menu-mobil h1 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+#fondologo
+{
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+	width: 250px;
+	position: absolute;
+	top: 7%;
+	left: 5%;
+	z-index: 100;
+}
+
+#fondologo p
+{
+	color: white;
+}
+
+#fondologo span
+{
+	color: #7AA4DB;
+	font-family: "Open sans", sans-serif, serif;
+	font-size: 1rem;
+	font-weight: 800;
+}
+#slideshow {
+	width: 900px;
+}
+
+#slideshow .slide
+{
+	position: relative;
+}
+
+#slideshow article
+{
+	background: rgba(0,160,0,0.9);
+	border-radius: 10px;
+	border-bottom: 2px solid rgba(0,110,0,0.9);
+	bottom: 50px;
+	box-shadow: -5px 5px 15px rgba(0,0,0,0.6);
+	display: block;
+	font-family: 'Open sans', Arial, Helvetica, sans-serif;
+	font-size: 0.9rem;
+	opacity: 0.0;
+	padding: 10px 20px;
+	position: absolute;
+	right: 30px;
+	transition: linear 0.3s;
+}
+
+#slideshow article:hover {
+	opacity: 1.0;
+}
+
+#slideshow article a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#slideshow img
+{
+	width: 100%;
+}
+
+
+#main {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#main article {
+	display: inline-block;
+}
+
+#main article figure {
+	margin: 10px;
+	padding: 0px;
+	position: relative;
+}
+
+#main article figure img
+{
+	width: 100%;
+}
+
+#main h2 {
+	font-family: "Poiret One", Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+}
+
+#main .post{
+	text-align: left;
+	width: 85%;
+	max-width: 900px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#main .post h2{
+	margin-bottom: 10px;
+}
+#main .post img 
+{
+	text-align: center;
+	margin: 10px;
+}
+#main .post p {
+	font-family: "Open sans", Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	text-align: justify;
+}
+
+#main article figcaption
+{
+	background: rgba(0,0,0,0.6);
+	bottom: 103px;
+	color: white;
+	margin-bottom: -98px;
+	padding: 10px 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+#main article figcaption a, #main article figcaption h2 {
+	color: white;
+	font-family: 'Open sans', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 0.9rem;
+	text-decoration: none;
+}
+
+#main article figcaption a:hover {
+	text-decoration: underline;
+}
+
+#paginacion
+{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#paginacion a
+{
+	background: rgba(0,160,0,0.9);
+	border-bottom: 2px solid rgba(0,110,0,0.9);
+	border-radius: 5px;
+	box-shadow: -5px 5px 10px rgba(0,0,0,0.5);
+	font-family: "Open sans", Arial, Helvetica, sans-serif;
+	font-size: 0.8rem;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+#paginacion a:visited, #paginacion a {
+	color: #eee;
+}
+
+
+footer
+{
+	background: #733316;
+	width: 100%;
+}
+
+footer div {
+	margin: 0px auto;
+	vertical-align: top;
+}
+
+footer #footerizq, footer #footerder {
+	width: 45%;
+	display: inline-block;
+	padding: 15px;
+}
+
+#footerizq p 
+{
+	font-family: "Poiret One", Arial, sans-serif, serif;
+	color: white;
+	font-size: 2rem;
+	margin: 0px;
+	padding: 0px;
+}
+
+#footerizq p span 
+{
+	font-size: 0.9rem;
+}
+
+#footerizq .phone, #footerizq .email
+{
+	color: white; 
+}
+
+#footerizq .phone img, #footerizq .email img
+{
+	margin-bottom: -3px;
+	margin-right: 5px;
+}
+
+#footerder{
+	text-align: right;
+}
+
+#footerder div p, #footerder div ul
+{
+	display: inline;
+	vertical-align: top;
+	margin:0;
+	padding:0;
+	color: white;
+}
+
+#footerder ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+#footerder #copyright {
+	margin-top: 15px;
+	font-size: 0.8rem;
+	color: white;
+}

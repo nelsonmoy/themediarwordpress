@@ -1,0 +1,52 @@
+/* Medida para tablets horizontal */
+
+@media screen and (max-width:1024px){
+	header {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:768px){
+
+	header {
+		width: 100%;
+	}
+
+	nav ul li{
+		margin-left: 5px;
+		
+	}
+
+	#menu-normal {
+		display: none;
+	}
+
+	#menu-mobil {
+		display: block;
+	}
+
+	#menu-mobil {
+		width: 100%;
+	}
+
+	footer #footerizq, footer #footerder
+	{
+		display: block;
+		text-align: center;
+		width: 100%;
+		float: none;
+		padding: 10px 0px;
+	}
+}
+
+@media screen and (max-width:400px){
+
+	footer #footerizq, footer #footerder
+	{
+		display: block;
+		text-align: center;
+		width: 100%;
+		float: none;
+		padding: 10px 0px;
+	}
+}
