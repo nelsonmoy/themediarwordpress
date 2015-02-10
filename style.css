@@ -17,7 +17,6 @@ body
 	background: #eee;
 	font-size: 16pt;
 	font-family: "Poiret One", Arial, Helvetica, sans-serif;
-	color: white;
 }
 
 
@@ -336,16 +335,6 @@ footer #footerizq, footer #footerder {
 {
 	margin-bottom: -3px;
 	margin-right: 5px;
-}
-
-.phone
-{
-	color: white;
-}
-
-.email
-{
-	color: white;
 }
 
 
